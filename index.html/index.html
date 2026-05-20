@@ -921,29 +921,26 @@
 
     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
 
-      <!-- ── Card A: Maa Baglamukhi ── -->
       <div class="big-card fiu">
         <div class="big-card-hdr" style="padding:0;position:relative;overflow:hidden;min-height:220px;">
-          <!-- Anusthan photo -->
           <img src="images/banglamukhi-pooja.jpg" alt="माँ बगलामुखी अनुष्ठान"
                loading="lazy"
                class="absolute inset-0 w-full h-full object-cover"
-               style="opacity:0.35;z-index:0;"
+               style="opacity:0.25;z-index:0;"
                onerror="this.style.display='none'" />
-          <!-- Dark overlay gradient -->
-          <div class="absolute inset-0" style="background:linear-gradient(135deg,rgba(10,10,30,0.78) 60%,rgba(10,10,30,0.55) 100%);z-index:1;pointer-events:none;"></div>
-          <!-- Vertical label — दस महाविद्याओं में सर्वोच्च -->
+          <div class="absolute inset-0" style="background:linear-gradient(135deg,rgba(10,10,30,0.85) 40%,rgba(10,10,30,0.60) 100%);z-index:1;pointer-events:none;"></div>
+          
           <div class="absolute left-3 top-0 bottom-0 flex items-center" style="z-index:2;">
             <p style="writing-mode:vertical-rl;transform:rotate(180deg);font-family:'Poppins',sans-serif;font-size:0.58rem;font-weight:700;letter-spacing:0.18em;color:rgba(212,175,55,0.65);text-transform:uppercase;">
               दस महाविद्याओं में सर्वोच्च
             </p>
           </div>
-          <!-- Text content -->
-          <div class="relative pl-8 pr-6 pt-6 pb-5" style="z-index:2;">
+
+          <div class="relative pl-10 pr-6 pt-6 pb-5" style="z-index:2;">
+            
+            <img src="images/banglamukhi-pooja.jpg" alt="माँ बगलामुखी" class="w-full h-48 object-cover rounded-xl mb-4" style="border: 1px solid rgba(212,175,55,0.3); box-shadow: 0 4px 15px rgba(0,0,0,0.5);">
+
             <div class="flex items-center gap-2 mb-3">
-              <div class="service-img-box">
-    <img src="images/banglamukhi-pooja.jpg" alt="माँ बगलामुखी अनुष्ठान" style="width: 100%; border-radius: 8px; margin-bottom: 15px;">
-</div>
               <span class="chip" style="border-color:rgba(212,175,55,0.5); color:#F0C060;">दस महाविद्याओं में सर्वोच्च</span>
             </div>
             <h3 class="font-serif text-2xl sm:text-[1.7rem] font-bold text-white leading-snug">
@@ -953,61 +950,37 @@
           </div>
         </div>
         <div class="big-card-body">
-          <!-- Short intro always visible -->
           <p class="text-dgrey/65 text-sm leading-relaxed mb-4 font-sans">
             माँ बगलामुखी देवी दस महाविद्याओं में से एक हैं, जिन्हें <strong class="text-mid/80">शत्रु बाधा और विजय की देवी</strong> माना जाता है।
             यह अनुष्ठान शत्रुओं से रक्षा, कोर्ट-कचहरी के मामलों में सफलता, नकारात्मक शक्तियों से
             मुक्ति और आत्मबल बढ़ाने के लिए किया जाता है।
           </p>
-
-          <!-- Benefit chips -->
           <div class="flex flex-wrap gap-2 mb-4">
             <span class="chip">⚔️ शत्रु बाधा से मुक्ति</span>
             <span class="chip">⚖️ कोर्ट-कचहरी में विजय</span>
-            <span class="chip">🛡️ नकारात्मक शक्तियों से रक्षा</span>
-            <span class="chip">💪 आत्मबल में वृद्धि</span>
+            <span class="chip">🛡️ नकारात्मक शक्तियां</span>
           </div>
-
-          <!-- Expanded detail (read more) -->
-          <div id="rm-bagla" class="rm-content">
-            <div class="rounded-xl p-4 mb-4 text-sm leading-relaxed font-sans space-y-2"
-              style="background:rgba(212,175,55,0.06);border:1px solid rgba(212,175,55,0.15);color:rgba(203,213,225,0.8);">
-              <p>
-                माँ बगलामुखी दस महाविद्याओं में सम्मिलित हैं। इनका अनुष्ठान <strong class="text-mid/80">विशेष मंत्र, हवन एवं साधना</strong> के माध्यम से संपन्न किया जाता है। यह साधना विशेषतः उन लोगों के लिए अत्यंत लाभकारी है जो शत्रु-पीड़ा, वाद-विवाद, न्यायालय के मामलों या किसी भी प्रकार की बाधा से ग्रस्त हैं।
-              </p>
-              <p>
-                अनुष्ठान की अवधि समस्या की गंभीरता के अनुसार <strong class="text-mid/80">११, २१ या ४१ दिन</strong> होती है। आचार्य जी स्वयं संकल्प लेकर पूर्ण विधि-विधान से यह अनुष्ठान कराते हैं।
-              </p>
-            </div>
-          </div>
-
           <div class="flex items-center justify-between pt-1">
-            <button onclick="toggleRM('rm-bagla', this)"
-                    class="text-bronze text-xs font-semibold uppercase tracking-wider flex items-center gap-1.5 font-sans hover:text-bronzeD transition-colors bg-transparent border-none cursor-pointer p-0">
-              <span class="rm-label">और पढ़ें</span>
-              <span class="rm-arrow text-[10px]">▼</span>
-            </button>
             <a href="https://wa.me/919696401574?text=Pranam%20Acharya%20Ji,%20mujhe%20aapka%20paramarsh%20chahiye." target="_blank" rel="noopener"
-               class="btn-bronze rounded-full px-5 py-2 text-xs">संपर्क करें</a>
+               class="btn-bronze rounded-full px-5 py-2 text-xs w-full text-center">परामर्श करें</a>
           </div>
         </div>
       </div>
 
-      <!-- ── Card B: Mahasudarshan Kavach ── -->
       <div class="big-card fiu d1">
         <div class="big-card-hdr" style="padding:0;position:relative;overflow:hidden;min-height:220px;">
-          <!-- Anusthan photo -->
           <img src="images/mha sudarshan-pooja.jpg" alt="महासुदर्शन कवच"
                loading="lazy"
                class="absolute inset-0 w-full h-full object-cover"
-               style="opacity:0.35;z-index:0;"
+               style="opacity:0.25;z-index:0;"
                onerror="this.style.display='none'" />
-          <div class="absolute inset-0" style="background:linear-gradient(135deg,rgba(10,10,30,0.78) 60%,rgba(10,10,30,0.55) 100%);z-index:1;pointer-events:none;"></div>
-          <div class="relative pl-6 pr-6 pt-6 pb-5" style="z-index:2;">
+          <div class="absolute inset-0" style="background:linear-gradient(135deg,rgba(10,10,30,0.85) 60%,rgba(10,10,30,0.55) 100%);z-index:1;pointer-events:none;"></div>
+          
+          <div class="relative pl-8 pr-6 pt-6 pb-5" style="z-index:2;">
+            
+            <img src="images/mha sudarshan-pooja.jpg" alt="महासुदर्शन कवच साधना" class="w-full h-48 object-cover rounded-xl mb-4" style="border: 1px solid rgba(212,175,55,0.3); box-shadow: 0 4px 15px rgba(0,0,0,0.5);">
+
             <div class="flex items-center gap-2 mb-3">
-              <div class="service-img-box">
-    <img src="images/mha sudarshan-pooja.jpg" alt="महासुदर्शन कवच साधना" style="width: 100%; border-radius: 8px; margin-bottom: 15px;">
-</div>
               <span class="chip" style="border-color:rgba(212,175,55,0.5); color:#F0C060;">भगवान विष्णु की दिव्य शक्ति</span>
             </div>
             <h3 class="font-serif text-2xl sm:text-[1.7rem] font-bold text-white leading-snug">
@@ -1021,33 +994,14 @@
             महासुदर्शन कवच भगवान विष्णु के <strong class="text-mid/80">सुदर्शन चक्र से संबंधित</strong> एक शक्तिशाली आध्यात्मिक
             रक्षा कवच माना जाता है। इसका पाठ नकारात्मक ऊर्जा, रोग, भय और बाधाओं से सुरक्षा प्रदान करता है।
           </p>
-
           <div class="flex flex-wrap gap-2 mb-4">
             <span class="chip">🕉️ मानसिक शांति</span>
             <span class="chip">🌟 सकारात्मक ऊर्जा</span>
             <span class="chip">🏥 रोग एवं भय से मुक्ति</span>
-            <span class="chip">✨ आध्यात्मिक उत्थान</span>
           </div>
-
-          <div id="rm-kavach" class="rm-content">
-            <div class="bg-amber-50/70 border border-bronze/14 rounded-xl p-4 mb-4 text-sm text-dgrey/70 leading-relaxed font-sans space-y-2">
-              <p>
-                महासुदर्शन कवच भगवान विष्णु के सुदर्शन चक्र से संबंधित एक अत्यंत शक्तिशाली आध्यात्मिक रक्षा कवच है। इसका नियमित पाठ और वैज्ञानिक नकारात्मक ऊर्जा, रोग, भय और पौधों से सुरक्षा प्रदान करने के सुझाव दिए गए हैं।
-              </p>
-              <p>
-                यह <strong class="text-mid/80">मानसिक शांति, सकारात्मक ऊर्जा और आध्यात्मिक उत्पादकता</strong> के लिए अत्यंत प्रभावशाली माना जाता है। आचार्य जी इसे घर में आकर विधिपूर्वक संपन्न कराते हैं — पूर्णतः व्यक्तिगत और गोपनीय।
-              </p>
-            </div>
-          </div>
-
           <div class="flex items-center justify-between pt-1">
-            <button onclick="toggleRM('rm-kavach', this)"
-                    class="text-bronze text-xs font-semibold uppercase tracking-wider flex items-center gap-1.5 font-sans hover:text-bronzeD transition-colors bg-transparent border-none cursor-pointer p-0">
-              <span class="rm-label">और पढ़ें</span>
-              <span class="rm-arrow text-[10px]">▼</span>
-            </button>
             <a href="https://wa.me/919696401574?text=Pranam%20Acharya%20Ji,%20mujhe%20aapka%20paramarsh%20chahiye." target="_blank" rel="noopener"
-               class="btn-bronze rounded-full px-5 py-2 text-xs">संपर्क करें</a>
+               class="btn-bronze rounded-full px-5 py-2 text-xs w-full text-center">संपर्क करें</a>
           </div>
         </div>
       </div>
@@ -1055,8 +1009,6 @@
     </div>
   </div>
 </section>
-
-
 <!-- ════════════════════════════════════════════════
      SERVICES — 4 Card Grid
 ════════════════════════════════════════════════ -->
